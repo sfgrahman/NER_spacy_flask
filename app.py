@@ -1,9 +1,6 @@
-from flask import Flask,render_template,url_for,request
-import re
-import pandas as pd
+from flask import Flask,render_template, url_for, request
 import spacy
 from spacy import displacy
-import en_core_web_sm
 HTML_WRAPPER = """<div style="overflow-x: auto; border: 1px solid #e6e9ef; border-radius: 0.25rem; padding: 1rem">{}</div>"""
 
 from flaskext.markdown import Markdown
